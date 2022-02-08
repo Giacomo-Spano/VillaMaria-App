@@ -17,6 +17,10 @@
 <script defer src="/__/firebase/9.6.6/firebase-analytics-compat.js"></script>
 <script defer src="/__/firebase/9.6.6/firebase-remote-config-compat.js"></script>
 <script defer src="/__/firebase/9.6.6/firebase-performance-compat.js"></script>
+
+
+
+
 <!-- 
   initialize the SDK after all desired features are loaded, set useEmulator to false
   to avoid connecting the SDK to running emulators.
@@ -973,24 +977,84 @@
          </app-dynamicpage>
          <!---->
       </app-root>
+
+
+      Web App
+      Nickname app
+      VillaMariaApp
+      ID app
+      1:1074313712213:web:e2c2df9a7cf31b3d3f7adc
+      Sito Firebase Hosting collegato
+      villamaria-a4966
       
+      Installazione e configurazione degli SDK
+      npm
+      CDN
+      Configurazione
+      Copia e incolla gli script in fondo al tag <body>, ma prima di utilizzare qualsiasi servizio Firebase:
+      
+      <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+        import { getFirestore, collection, getDocs , addDoc, query, where } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-firestore.js";;
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBS5DEp1211y96IZ2vr-e_p_vrwzWD1tzY",
+          authDomain: "villamariaweb-2f399.firebaseapp.com",
+          projectId: "villamariaweb-2f399",
+          storageBucket: "villamariaweb-2f399.appspot.com",
+          messagingSenderId: "1074313712213",
+          appId: "1:1074313712213:web:e2c2df9a7cf31b3d3f7adc",
+          measurementId: "G-EK1YVE0E2T"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const db = getFirestore(app);
+
+        
+         async function main() {
+            
+            document.getElementById("demo").innerHTML = "Hello World!";
+
+            console.log("step 1");
+            
+            const q = query(collection(db, "users"), where("first", "==", 'Alan'));
+
+            const querySnapshot = await getDocs(q);
+            querySnapshot.forEach((doc) => {
+               // doc.data() is never undefined for query doc snapshots
+               console.log(doc.id, " => ", doc.data().born, ".", doc.data().first, ".", doc.data().last, ".", );
+            });
+
+            console.log("first query executed");
+
+            const querySnapshot2 = await getDocs(collection(db, "users"));
+            querySnapshot2.forEach((doc) => {
+               console.log(`${doc.id} => ${doc.data()}`);
+            });
+
+            const querySnapshot3 = await getDocs(collection(db, "cities"));
+            querySnapshot3.forEach((doc) => {
+               // doc.data() is never undefined for query doc snapshots
+               console.log(doc.id, " => ", doc.data().born, " ", doc.data().first);
+            });
+         
+            console.log("step 3");
+
+
+         }
+         main();
+      </script>
+
+     
       <script>
-
-
-
-         document.addEventListener('DOMContentLoaded', function() {
-
-         // Import the functions you need from the SDKs you need
-         import { initializeApp } from "firebase/app";
-         import { getAnalytics } from "firebase/analytics";
-         // TODO: Add SDKs for Firebase products that you want to use
-         // https://firebase.google.com/docs/web/setup#available-libraries
-
-         // Initialize Cloud Firestore through Firebase
-         import { getFirestore } from "firebase/firestore"
-         import { collection, getDocs , addDoc, query, where } from "firebase/firestore";
-
-
 
            const loadEl = document.querySelector('#load');
            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
