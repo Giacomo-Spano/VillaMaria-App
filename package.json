@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "encoding": "0.1.13",
-    "firebase": "9.0.0",
+    "firebase": "^9.6.6",
     "firebaseui": "0.600.0-rc.0",
     "http": "^0.0.0",
     "https": "^1.0.0",
