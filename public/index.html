@@ -46,16 +46,14 @@
                   <div>
                      <!---->
                                           <!-- menu lingua -->
-                                          <div id="prova" class="max-width qc-margin-x w-100 dropdown-container ng-star-inserted" >
+                                          <div id="dropdownmenu" class="max-width qc-margin-x w-100 dropdown-container ng-star-inserted" >
                                              <div class="position-absolute qc-dropdown pr-4 list-group">
                                                 <ul class="ng-star-inserted">
                                                    <li class="list-group-item qc-dropdown-item p2 ng-star-inserted">
                                                       <div id="italiano" class="w-100">Italiano</div>
                                                    </li>
                                                    <li class="list-group-item qc-dropdown-item p2 ng-star-inserted">
-                                                      <a target="_self" class="a-custom-location" href="en/bormio/hotel-bagni-nuovi/directory-ospiti/listino-frigobar">
-                                                         <div class="w-100">English</div>
-                                                      </a>
+                                                      <div id="english" class="w-100">English</div>
                                                    </li>
                                                 </ul>
                                              </div>
@@ -77,7 +75,7 @@
                         </div>
                         <div class="col-xl-5 d-flex language p-0 text-right">
                            <div class="px-0 language item position-relative desktop">
-                              <p id="lingua" class="p3">Italiano</p>
+                              <p id="language" class="p3">Italiano</p>
                            </div>
                            <!---->
                            <div class="mobile">
@@ -145,12 +143,6 @@
                </app-alert>
                <div class="dynamicpage-containers">
                   <!---->
-
-
-                  <p id="demo">Hi.</p>
-
-
-
                   <div>
                      <div id="">
                         <!-- <app-items-container> --> 
@@ -249,6 +241,59 @@
                                                    </div>
                                                    <div class="card-img">
                                                       <div class="back-img-container w-100 h-100">
+                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./_Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!---->
+                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./_Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!----><!---->
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                             </div>
+                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                          </app-card>
+                                          <!----><!---->
+                                       </div>
+                                       <!---->
+                                    </div>
+
+                                    <!---- INFO -->
+                                    <div class="card-margin">
+                                       <div>
+                                          <app-card>
+                                             <div class="animated-card">
+                                                <!----><!----><!----><!----><!----><!---->
+                                                <div class="card-carousel twelfth">
+                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
+                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
+                                                         <div>
+                                                            <!----><!---->
+                                                            <h3 id="info-title" class="title-no-bold"> IL MANUALE DELLA CASA </h3>
+                                                            <!---->
+                                                            <p id="info-subtitle" class="p3 desc"> Sempre a portata di mano </p>
+                                                            <!---->
+                                                         </div>
+                                                         <div class="pt-2">
+                                                            <a id="info-href" class="a-custom-location cta" href="https://www.casavacanzevillamaria.it/" target="_self">
+                                                               <app-button>
+                                                                  <button class="btn button animation-button-sx-dx auto secondary">
+                                                                     <div class="button-content d-flex justify-content-center">
+                                                                        <b id="info-button" class="p2 b">ESPLORA</b><!---->
+                                                                     </div>
+                                                                  </button>
+                                                                  <!----><!---->
+                                                               </app-button>
+                                                            </a>
+                                                         </div>
+                                                         <!---->
+                                                      </div>
+                                                   </div>
+                                                   <div class="card-img">
+                                                      <div class="back-img-container w-100 h-100">
                                                          <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
                                                             <div class="animated-block"></div>
                                                          </div>
@@ -270,7 +315,8 @@
                                     </div>
 
 
-                                 <!---- MANUALE DELLA CASA -->
+                                    
+                                    <!---- SERVICES -->
                                     <div class="card-margin">
                                        <div>
                                           <app-card>
@@ -281,17 +327,70 @@
                                                       <div class="h-100 w-100 d-flex flex-column justify-content-between">
                                                          <div>
                                                             <!----><!---->
-                                                            <h3 id="manual-title2" class="title-no-bold"> IL MANUALE DELLA CASA2 </h3>
+                                                            <h3 id="services-title" class="title-no-bold"> IL MANUALE DELLA CASA </h3>
                                                             <!---->
-                                                            <p id="manual-subtitle2" class="p3 desc"> Sempre a portata di mano </p>
+                                                            <p id="services-subtitle" class="p3 desc"> Sempre a portata di mano </p>
                                                             <!---->
                                                          </div>
                                                          <div class="pt-2">
-                                                            <a id="manual-href2" class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/modulo-colazione" target="_self">
+                                                            <a id="services-href" class="a-custom-location cta" href="https://www.casavacanzevillamaria.it/" target="_self">
                                                                <app-button>
                                                                   <button class="btn button animation-button-sx-dx auto secondary">
                                                                      <div class="button-content d-flex justify-content-center">
-                                                                        <b id="manual-button2" class="p2 b">ESPLORA</b><!---->
+                                                                        <b id="services-button" class="p2 b">ESPLORA</b><!---->
+                                                                     </div>
+                                                                  </button>
+                                                                  <!----><!---->
+                                                               </app-button>
+                                                            </a>
+                                                         </div>
+                                                         <!---->
+                                                      </div>
+                                                   </div>
+                                                   <div class="card-img">
+                                                      <div class="back-img-container w-100 h-100">
+                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!---->
+                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!----><!---->
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                             </div>
+                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                          </app-card>
+                                          <!----><!---->
+                                       </div>
+                                       <!---->
+                                    </div>
+
+                                    <!---- ACTIVITIES -->
+                                    <div class="card-margin">
+                                       <div>
+                                          <app-card>
+                                             <div class="animated-card">
+                                                <!----><!----><!----><!----><!----><!---->
+                                                <div class="card-carousel twelfth">
+                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
+                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
+                                                         <div>
+                                                            <!----><!---->
+                                                            <h3 id="activities-title" class="title-no-bold"> IL MANUALE DELLA CASA </h3>
+                                                            <!---->
+                                                            <p id="activities-subtitle" class="p3 desc"> Sempre a portata di mano </p>
+                                                            <!---->
+                                                         </div>
+                                                         <div class="pt-2">
+                                                            <a id="info-href" class="a-custom-location cta" href="https://www.casavacanzevillamaria.it/" target="_self">
+                                                               <app-button>
+                                                                  <button class="btn button animation-button-sx-dx auto secondary">
+                                                                     <div class="button-content d-flex justify-content-center">
+                                                                        <b id="activities-button" class="p2 b">ESPLORA</b><!---->
                                                                      </div>
                                                                   </button>
                                                                   <!----><!---->
@@ -325,622 +424,113 @@
 
 
 
+                                    <!---- TOUR -->
+                                    <div class="card-margin">
+                                       <div>
+                                          <app-card>
+                                             <div class="animated-card">
+                                                <!----><!----><!----><!----><!----><!---->
+                                                <div class="card-carousel twelfth">
+                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
+                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
+                                                         <div>
+                                                            <!----><!---->
+                                                            <h3 id="tour-title" class="title-no-bold"> IL MANUALE DELLA CASA </h3>
+                                                            <!---->
+                                                            <p id="tour-subtitle" class="p3 desc"> Sempre a portata di mano </p>
+                                                            <!---->
+                                                         </div>
+                                                         <div class="pt-2">
+                                                            <a id="info-href" class="a-custom-location cta" href="https://www.casavacanzevillamaria.it/" target="_self">
+                                                               <app-button>
+                                                                  <button class="btn button animation-button-sx-dx auto secondary">
+                                                                     <div class="button-content d-flex justify-content-center">
+                                                                        <b id="tour-button" class="p2 b">ESPLORA</b><!---->
+                                                                     </div>
+                                                                  </button>
+                                                                  <!----><!---->
+                                                               </app-button>
+                                                            </a>
+                                                         </div>
+                                                         <!---->
+                                                      </div>
+                                                   </div>
+                                                   <div class="card-img">
+                                                      <div class="back-img-container w-100 h-100">
+                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!---->
+                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!----><!---->
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                             </div>
+                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                          </app-card>
+                                          <!----><!---->
+                                       </div>
+                                       <!---->
+                                    </div>
+
+                                    <!---- RESTAURANTS -->
+                                    <div class="card-margin">
+                                       <div>
+                                          <app-card>
+                                             <div class="animated-card">
+                                                <!----><!----><!----><!----><!----><!---->
+                                                <div class="card-carousel twelfth">
+                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
+                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
+                                                         <div>
+                                                            <!----><!---->
+                                                            <h3 id="restaurants-title" class="title-no-bold"> IL MANUALE DELLA CASA </h3>
+                                                            <!---->
+                                                            <p id="restaurants-subtitle" class="p3 desc"> Sempre a portata di mano </p>
+                                                            <!---->
+                                                         </div>
+                                                         <div class="pt-2">
+                                                            <a id="restaurants-href" class="a-custom-location cta" href="https://www.casavacanzevillamaria.it/" target="_self">
+                                                               <app-button>
+                                                                  <button class="btn button animation-button-sx-dx auto secondary">
+                                                                     <div class="button-content d-flex justify-content-center">
+                                                                        <b id="info-button" class="p2 b">ESPLORA</b><!---->
+                                                                     </div>
+                                                                  </button>
+                                                                  <!----><!---->
+                                                               </app-button>
+                                                            </a>
+                                                         </div>
+                                                         <!---->
+                                                      </div>
+                                                   </div>
+                                                   <div class="card-img">
+                                                      <div class="back-img-container w-100 h-100">
+                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!---->
+                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Dear Breakfast" style="background-image: url(&quot;./Immagine.png&quot;);">
+                                                            <div class="animated-block"></div>
+                                                         </div>
+                                                         <!----><!---->
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                             </div>
+                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                                          </app-card>
+                                          <!----><!---->
+                                       </div>
+                                       <!---->
+                                    </div>
 
 
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Welness Lunch </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Ordina il tuo pranzo </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/modulo-pranzo" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Welness Lunch" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-06/pranzo-ghbn_crop.jpg?h=bfd0ad29&amp;itok=V6D71yf8&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Welness Lunch" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-06/pranzo-ghbn_crop.jpg?itok=UJryehnh&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Salone dei balli </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Ordina la tuo cena </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/modulo-cena" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Salone dei balli" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/cena-bn_crop%20%281%29.jpg?h=4e75004d&amp;itok=83Ml55yz&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Salone dei balli" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/cena-bn_crop%20%281%29.jpg?itok=SoWf7FB_&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Carta dei massaggi </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Massaggi e trattamenti </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/carta-dei-massaggi" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Carta dei massaggi" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/8_crop%20%281%29.jpg?itok=LLIjcBEi&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Carta dei massaggi" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/8_crop%20%281%29.jpg?itok=GnIqUDv8&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Il tuo bar in camera </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Listino frigobar </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/listino-frigobar" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Il tuo bar in camera" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/aperiterme-strong_crop%20%281%29.jpg?itok=ocjbcf-i&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Il tuo bar in camera" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/aperiterme-strong_crop%20%281%29.jpg?itok=pBG-BKku&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> We laundry safe </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Listino lavanderia </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/listino-biancheria" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="We laundry safe" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/lavanderia_crop%20%281%29.jpg?itok=zd2cNgn9&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="We laundry safe" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/lavanderia_crop%20%281%29.jpg?itok=yzl8CcmG&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> La carta del sonno </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Prenota il tuo cuscino </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/la-carta-del-sonno" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="La carta del sonno" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/3_crop.jpg?itok=4M6Yg2Ye&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="La carta del sonno" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/3_crop.jpg?itok=FN_fbUkF&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Abbiamo a cuore il tuo benessere </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Protocollo di sicurezza e servizi </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/hotel-bagni-nuovi/directory-ospiti/sezione-servizi-generici" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Abbiamo a cuore il tuo benessere" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/vasca-pecore-1980_crop%20%281%29.jpg?h=efa01cfe&amp;itok=M3vy_l97&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Abbiamo a cuore il tuo benessere" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/vasca-pecore-1980_crop%20%281%29.jpg?itok=eFHVNTK_&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Prodotti QC Terme </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> La nostra linea di cosmesi termale e di fragranze Aria. </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/corporate/products" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Prodotti QC Terme" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/Cosmesi_Bogliolo_2.jpg?itok=9BqxmXRm&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Prodotti QC Terme" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/Cosmesi_Bogliolo_2.jpg?itok=R-pH_lM9&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> aQCua Magazine </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Il nuovo numero del nostro magazine realizzato con Vogue Italia. </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/news/aqcua-11" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="aQCua Magazine" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2022-02/aQCua_13_COVER-ITA_UK_NEW-1.jpg?itok=WSt9jm_g&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="aQCua Magazine" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2022-02/aQCua_13_COVER-ITA_UK_NEW-1.jpg?h=f1c48488&amp;itok=czWeA8xG&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Percorso Termale </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Un percorso sensoriale per attimi di puro relax. </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/bormio/qc-terme-bagni-nuovi/percorso-termale" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Percorso Termale" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-09/BORMIO%20BN_VASCA_PARCHE_JPG%20%281%29.jpg?h=7da04c2f&amp;itok=Rd3DMBgp&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Percorso Termale" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-09/BORMIO%20BN_VASCA_PARCHE_JPG%20%281%29.jpg?h=2a9abd7f&amp;itok=vBXHVjR8&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> Il nostro patrimonio </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Nel cuore della Valtellina </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/generica/directory-hotel-bagni-nuovi-modulo-patrimonio" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="Il nostro patrimonio" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-07/patrimonio_crop%20%281%29.jpg?itok=sEwkMFOA&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="Il nostro patrimonio" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-07/patrimonio_crop%20%281%29.jpg?itok=5hAhvCeo&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <div class="card-margin">
-                                       <div>
-                                          <app-card>
-                                             <div class="animated-card">
-                                                <!----><!----><!----><!----><!----><!---->
-                                                <div class="card-carousel twelfth">
-                                                   <div class="card-description" style="background-color: rgb(242, 242, 242);">
-                                                      <div class="h-100 w-100 d-flex flex-column justify-content-between">
-                                                         <div>
-                                                            <!----><!---->
-                                                            <h3 class="title-no-bold"> We wellness safe </h3>
-                                                            <!---->
-                                                            <p class="p3 desc"> Il protocollo QC Care per garantirti il relax di sempre in sicur ... </p>
-                                                            <!---->
-                                                         </div>
-                                                         <div class="pt-2">
-                                                            <a class="a-custom-location cta" href="https://www.qcterme.com/it/corporate/qc-care" target="_self">
-                                                               <app-button>
-                                                                  <button class="btn button animation-button-sx-dx auto secondary">
-                                                                     <div class="button-content d-flex justify-content-center">
-                                                                        <b class="p2 b">ESPLORA</b><!---->
-                                                                     </div>
-                                                                  </button>
-                                                                  <!----><!---->
-                                                               </app-button>
-                                                            </a>
-                                                         </div>
-                                                         <!---->
-                                                      </div>
-                                                   </div>
-                                                   <div class="card-img">
-                                                      <div class="back-img-container w-100 h-100">
-                                                         <div class="visible-desktop h-100 w-100 position-absolute back-img" title="We wellness safe" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_crop_1_1/public/seo/2021-06/Screenshot%202021-06-16%20at%2017.34.22.png?h=458166ec&amp;itok=Sf0Qb68g&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!---->
-                                                         <div class="visible-mobile h-100 w-100 position-absolute back-img" title="We wellness safe" style="background-image: url(&quot;https://cms-eu.qcterme.com/sites/default/files/styles/page_social_image_mobile_crop_16_9/public/seo/2021-06/Screenshot%202021-06-16%20at%2017.34.22.png?itok=oe0b7p_x&quot;);">
-                                                            <div class="animated-block"></div>
-                                                         </div>
-                                                         <!----><!---->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                             </div>
-                                             <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                          </app-card>
-                                          <!----><!---->
-                                       </div>
-                                       <!---->
-                                    </div>
-                                    <!---->
-                                 </div>
 
 
 
@@ -953,30 +543,6 @@
                               </div>
                            </div>
                            <!----><!----><!----><!---->
-                           <app-sticky-menu>
-                              <div class="sticky-menu_wrapper"></div>
-                              <div class="sticky-menu">
-                                 <div class="sticky-menu_header">
-                                    <i class="pi pi-arrow-left m-0"></i><!----><!---->
-                                 </div>
-                                 <div class="sticky-menu_content py-3">
-                                    <div class="position-relative item-container-sticky">
-                                       <h3 class="pb-4">Filtra</h3>
-                                       <!----><!---->
-                                       <app-button>
-                                          <button class="btn button animation-button-sx-dx full primary">
-                                             <div class="button-content d-flex justify-content-center">
-                                                <b class="p2 b">APPLICA</b><!---->
-                                             </div>
-                                          </button>
-                                          <!----><!---->
-                                       </app-button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </app-sticky-menu>
-                        
-                        <!---->
                      </div>
                      <!---->
                      <div id="">
@@ -995,14 +561,10 @@
                                                    <!---->
                                                    <div class="com-block-text p1 wyswyg-text">
                                                       <span>
-                                                         <h5>Hai dimenticato qualche cosa?</h5>
-                                                         <p>Siamo lieti di poterti aiutare. Su richiesta possiamo fornire:</p>
-                                                         <p>- Spazzolino e dentifricio<br>
-                                                            - Cuffia doccia<br>
-                                                            - Kit rasoio<br>
-                                                            - Kit cucito<br>
-                                                            - Lucido scarpe<br>
-                                                            - Mascherina
+                                                         <h5></h5>
+                                                         <p></p>
+                                                         <p>Il nostro staff è sempre a tua completa disposizione per informazioni turistiche e per ogni tua esigenza!
+                                                            Contattaci                                                             
                                                          </p>
                                                       </span>
                                                    </div>
@@ -1038,7 +600,9 @@
                            <div class="w-100 qc-margin-x max-width">
                               <!---->
                               <div>
-                                 <p class="p3">QC Terme S.r.l. — Partita IVA di Gruppo IVA 10541980966—<a href="https://www.qcterme.com/en/corporate/privacy-policy" target="_blank">Privacy Policy</a> </p>
+                                 <p class="p3">Il nostro staff è sempre a tua completa disposizione per informazioni turistiche e per ogni tua esigenza!
+                                    Contattaci 
+                                 </p>
                               </div>
                            </div>
                         </div>
@@ -1055,7 +619,9 @@
                         <div>
                            <!----><!----><!---->
                            <div class="qc-margin-x pb-40px">
-                              <p class="p3">QC Terme S.r.l. — Partita IVA di Gruppo IVA 10541980966—<a href="https://www.qcterme.com/en/corporate/privacy-policy" target="_blank">Privacy Policy</a> </p>
+                              <p class="p3">Il nostro staff è sempre a tua completa disposizione per informazioni turistiche e per ogni tua esigenza!
+                                 Contattaci 
+                              </p>
                            </div>
                         </div>
                      </div>
@@ -1107,80 +673,35 @@
             });
         }
 
+        async function load(lang) {            
+            updateText(lang, 'manual');
+            updateText(lang, 'info');
+            updateText(lang, 'services');
+            updateText(lang, 'activities');
+            updateText(lang, 'tour');
+            updateText(lang, 'restaurants');
+        }
+
         async function main() {
             
-            document.getElementById("demo").innerHTML = "Hello World!";
-
-            document.getElementById("prova").style.display = "none";
-            document.getElementById("lingua").onclick = function() {
+            document.getElementById("dropdownmenu").style.display = "none";
+            document.getElementById("language").onclick = function() {
                myFunction()
             };
             document.getElementById("italiano").onclick = function() {
-               //myFunction()
+               load('italian');
+            };
+            document.getElementById("english").onclick = function() {
+               load('english');
             };
 
-
-            updateText('italian', 'manual');
-
-            //const messageRef = doc(db, "texts", "roomA", "messages", "message1");
-            /*const docRef = collection(db, "menus",);
-            console.log("Document data:", docRef.data().title);
-
-
-            const docSnap = await getDoc(docRef);
-            if (docSnap.exists()) {
-            console.log("Document data:", docSnap.data());
-            } else {
-            // doc.data() will be undefined in this case
-            console.log("No such document!");
-            }
-
-            const messageRef = doc(db, "texts");*/
-
-
-            console.log("step 1");
-            
-            var /*const*/ q = query(collection(db, "menus"), where("lang", "==", 'italian'),  where("id", "==", 'manual'));
-
-            const querySnapshot = await getDocs(q);
-            querySnapshot.forEach((doc) => {
-               // doc.data() is never undefined for query doc snapshots
-
-               document.getElementById("demo").innerHTML = doc.data().first;
-               console.log(doc.id, " => ", doc.data().born, ".", doc.data().first, ".", doc.data().last, ".", );
-
-               //document.getElementById("manual-title").innerHTML = "Hello World! - " + doc.data().title;
-            });
-
-            console.log("first query executed");
-
-            const querySnapshot2 = await getDocs(collection(db, "users"));
-            querySnapshot2.forEach((doc) => {
-               console.log(`${doc.id} => ${doc.data()}`);
-            });
-
-            const querySnapshot3 = await getDocs(collection(db, "cities"));
-            querySnapshot3.forEach((doc) => {
-               // doc.data() is never undefined for query doc snapshots
-               console.log(doc.id, " => ", doc.data().born, " ", doc.data().first);
-            });
-         
-            console.log("step 3");
-
-
+            load('italian');
          }
          main();
-
          
          function myFunction() {
-            //document.getElementById("prova").classList.toggle("show");
-            document.getElementById("prova").style.display = "block";
-            
+            document.getElementById("dropdownmenu").style.display = "block";
          }
-         
-
-         
-
       </script>
 
      
