@@ -1032,6 +1032,8 @@
             const querySnapshot = await getDocs(q);
             querySnapshot.forEach((doc) => {
                // doc.data() is never undefined for query doc snapshots
+
+               document.getElementById("demo").innerHTML = doc.data().first;
                console.log(doc.id, " => ", doc.data().born, ".", doc.data().first, ".", doc.data().last, ".", );
             });
 
